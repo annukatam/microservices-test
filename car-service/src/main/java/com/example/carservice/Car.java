@@ -15,12 +15,14 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Entity
 @Table(name = "car")
-class Car {
+class Car
+{
 
     public Car(String name) {
         this.name = name;
     }
 
+    @Column(nullable = false)
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

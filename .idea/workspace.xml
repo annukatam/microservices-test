@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce9de89b-2a7a-4449-9a38-8cec5525bfb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarServiceApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce9de89b-2a7a-4449-9a38-8cec5525bfb4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +24,7 @@
     <option name="myId2Visible">
       <map>
         <entry key="JPA Inspector" value="true" />
-        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
@@ -45,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
