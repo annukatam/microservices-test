@@ -11,5 +11,6 @@
         <module>eureka-service</module>
         <module>car-service</module>
         <module>api-gateway</module>
+        <module>bike-service</module>
     </modules>
 </project>

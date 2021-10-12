@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce9de89b-2a7a-4449-9a38-8cec5525bfb4" name="Changes" comment="" />
+    <list default="true" id="ce9de89b-2a7a-4449-9a38-8cec5525bfb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bike-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike-service/src/test/java/com/example/bikeservice/BikeServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +69,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,6 +86,14 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.bikeservice" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -69,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.BikeServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,6 +118,13 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bike-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bikeservice.BikeServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +147,7 @@
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.CarServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication (1)" />
+      <item itemvalue="Spring Boot.BikeServiceApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
