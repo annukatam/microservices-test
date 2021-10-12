@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9de89b-2a7a-4449-9a38-8cec5525bfb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bike-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/main/java/com/example/bikeservice/BikeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bike-service/src/test/java/com/example/bikeservice/BikeServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/SpringCloudConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/example/carservice/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -78,6 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -101,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BikeServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,9 +128,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,7 +140,7 @@
     <list>
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.CarServiceApplication" />
-      <item itemvalue="Spring Boot.EurekaServiceApplication (1)" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.BikeServiceApplication" />
     </list>
   </component>
@@ -178,5 +172,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="secure cars microservice" />
     <option name="LAST_COMMIT_MESSAGE" value="secure cars microservice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/SpringCloudConfig.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/SpringCloudConfig.java</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/SpringCloudConfig.java</url>
+          <line>11</line>
+          <properties class="com.example.apigateway.SpringCloudConfig" method="gatewayRoutes" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
